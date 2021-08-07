@@ -18,7 +18,7 @@ body:
       label: "経緯"
       description: "経緯"
       value: "経緯"
- - type: markdown
+  - type: markdown
     id: todo
     attributes:
       label: "TODO"
