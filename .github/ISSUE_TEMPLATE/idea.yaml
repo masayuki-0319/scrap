@@ -6,21 +6,22 @@ body:
   - type: markdown
     id: abstract
     attributes:
-      label: 概要
-      description: 
-      placeholder: ""
-      value: ""
+      label: "概要"
+      description: "概要"
+      placeholder: "入力してください"
+      value: "概要"
     validations:
       required: true
   - type: markdown
     id: background
     attributes:
-      label: 経緯
-      description: ""
-  - type: markdown
+      label: "経緯"
+      description: "経緯"
+      value: "経緯"
+ - type: markdown
     id: todo
     attributes:
-      label: TODO
+      label: "TODO"
       value: "- [ ]"
     validations:
       required: true
