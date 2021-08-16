@@ -1,32 +1,31 @@
-name: Bug Report
-description: File a bug report
-title: "[Research]: "
-labels: [idea]
+name: Rearch
+description: Research
+title: "[Rearch]: "
+labels: [research]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+  - type: markdown
+    id: background
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: background
+      description: Write background
+      placeholder: "_"
     validations:
       required: true
-  - type: textarea
-    id: logs
+  - type: markdown
+    id: 
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: achieve
+      description: What you want to achieve.
+      placeholder: "_"
+    validations:
+      required: true
+  - type: markdown
+    id: todo
+    attributes:
+      label: TODO
+      description: TODO
+      value: "- [ ] "
