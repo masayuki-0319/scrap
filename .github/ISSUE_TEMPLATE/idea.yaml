@@ -10,7 +10,7 @@ body:
   - type: markdown
     id: background
     attributes:
-      label: background
+      label: Background
       description: Write background
       placeholder: "A"
       value: "A"
@@ -19,14 +19,14 @@ body:
   - type: markdown
     id: 
     attributes:
-      label: achieve
+      label: Achieve
       description: What you want to achieve.
       placeholder: "A"
       value: "A"
     validations:
       required: true
   - type: markdown
-    id: todo
+    id: Todo
     attributes:
       label: TODO
       description: TODO
