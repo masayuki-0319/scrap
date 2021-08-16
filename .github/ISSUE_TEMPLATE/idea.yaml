@@ -1,22 +1,22 @@
-name: Rearch
+name: Research
 description: Research
-title: "[Rearch]: "
+title: "[Research] "
 labels: [research]
 body:
   - type: textarea
     attributes:
       label: Background
-      description: Also tell us, what did you expect to happen?
+      description: Why research?
       placeholder: Tell us what you see!
-      value: "?"
+      value: ""
     validations:
       required: true
   - type: textarea
     attributes:
       label: Achieve
-      description: Also tell us, what did you expect to happen?
+      description: What do you want to achieve?
       placeholder: Tell us what you see!
-      value: "?"
+      value: ""
     validations:
       required: true
   - type: textarea
@@ -24,7 +24,6 @@ body:
       label: TODO
       description: TODO List
       value: |
-        - [ ] 
         - [ ] 
     validations:
       required: true
