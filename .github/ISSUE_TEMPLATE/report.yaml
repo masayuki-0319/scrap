@@ -1,0 +1,21 @@
+name: Report
+description: Report
+title: "[Report] "
+labels: [report]
+body:
+  - type: textarea
+    attributes:
+      label: Background
+      description: Why report?
+      placeholder: Tell us what you see!
+      value: "?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Abstract
+      description: What do you want to tell?
+      placeholder: Tell us what you see!
+      value: "?"
+    validations:
+      required: true
