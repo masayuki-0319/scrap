@@ -3,20 +3,20 @@ description: Research
 title: "[Rearch]: "
 labels: [research]
 body:
-  - type: markdown
+  - type: textarea
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: markdown
-    id: background
-    attributes:
-      value: Background
+      label: Background
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "?"
     validations:
       required: true
-  - type: markdown
-    id: 
+  - type: textarea
     attributes:
-      value: "Achieve"
+      label: Achieve
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "?"
     validations:
       required: true
   - type: markdown
