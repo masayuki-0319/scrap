@@ -13,7 +13,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Target
+      label: Goals
       description: What study?
       placeholder: Tell us what you see!
       value: "?"
@@ -24,6 +24,6 @@ body:
       label: References
       description: References
       value: |
-        - [ ] 
+        - 
     validations:
       required: true
