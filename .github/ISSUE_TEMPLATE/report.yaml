@@ -19,3 +19,12 @@ body:
       value: "?"
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: References
+      description: What urls are interested in?
+      placeholder: Write URLs
+      value: |
+        - 
+    validations:
+      required: true
