@@ -12,7 +12,8 @@ body:
     attributes:
       label: background
       description: Write background
-      placeholder: "_"
+      placeholder: "A"
+      value: "A"
     validations:
       required: true
   - type: markdown
@@ -20,7 +21,8 @@ body:
     attributes:
       label: achieve
       description: What you want to achieve.
-      placeholder: "_"
+      placeholder: "A"
+      value: "A"
     validations:
       required: true
   - type: markdown
@@ -28,4 +30,5 @@ body:
     attributes:
       label: TODO
       description: TODO
+      placeholder: "A"
       value: "- [ ] "
