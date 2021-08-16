@@ -19,8 +19,12 @@ body:
       value: "?"
     validations:
       required: true
-  - type: markdown
-    id: Todo
+  - type: textarea
     attributes:
+      label: TODO
+      description: TODO List
       value: |
-        "- [ ]"
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
