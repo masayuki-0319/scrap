@@ -8,7 +8,7 @@ body:
       label: Background
       description: Why research?
       placeholder: Tell us what you see!
-      value: ""
+      value: "?"
     validations:
       required: true
   - type: textarea
@@ -16,7 +16,7 @@ body:
       label: Achieve
       description: What do you want to achieve?
       placeholder: Tell us what you see!
-      value: ""
+      value: "?"
     validations:
       required: true
   - type: textarea
