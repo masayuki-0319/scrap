@@ -13,7 +13,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Achieve
+      label: Goals
       description: What do you want to achieve?
       placeholder: Tell us what you see!
       value: "?"
