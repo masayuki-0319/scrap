@@ -5,14 +5,6 @@ labels: [report]
 body:
   - type: textarea
     attributes:
-      label: Background
-      description: Why report?
-      placeholder: Tell us what you see!
-      value: "?"
-    validations:
-      required: true
-  - type: textarea
-    attributes:
       label: Abstract and TableContents
       description: What do you want to tell?
       placeholder: Tell us what you see!
@@ -27,4 +19,4 @@ body:
       value: |
         - 
     validations:
-      required: true
+      required: false
