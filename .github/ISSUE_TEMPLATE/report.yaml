@@ -13,7 +13,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Abstract
+      label: Abstract and TableContents
       description: What do you want to tell?
       placeholder: Tell us what you see!
       value: "?"
