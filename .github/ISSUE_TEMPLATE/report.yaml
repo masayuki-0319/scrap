@@ -5,7 +5,7 @@ labels: [report]
 body:
   - type: textarea
     attributes:
-      label: Abstract and TableContents
+      label: Abstract or TableContents
       description: What do you want to tell?
       placeholder: Tell us what you see!
       value: "?"
