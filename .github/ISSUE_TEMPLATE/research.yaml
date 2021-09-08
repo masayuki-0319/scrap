@@ -25,7 +25,6 @@ body:
       description: TODO List
       value: |
         - [ ] 参考資料の収集
-          - [ ] `どんな情報が欲しい？`
         - [ ] 情報選別
         - [ ] 結論
     validations:
