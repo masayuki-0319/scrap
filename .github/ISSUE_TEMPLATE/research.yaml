@@ -6,7 +6,7 @@ body:
   - type: textarea
     attributes:
       label: Background
-      description: Why research?
+      description: Why research?, What Problem?
       placeholder: Tell us what you see!
       value: "?"
     validations:
@@ -14,7 +14,7 @@ body:
   - type: textarea
     attributes:
       label: Goals
-      description: What do you want to achieve?
+      description: What achieve?
       placeholder: Tell us what you see!
       value: "?"
     validations:
