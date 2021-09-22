@@ -5,7 +5,7 @@ labels: [report]
 body:
   - type: textarea
     attributes:
-      label: "問題"
+      label: Problem
       description: What trouble?
       placeholder: Tell us what you see!
       value: "?"
@@ -13,7 +13,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: "原因"
+      label: Cause
       description: Why caurse?
       placeholder: Tell us what you see!
       value: "?"
@@ -21,7 +21,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: "解決策"
+      label: Solution
       description: Solution
       value: |
         - 
