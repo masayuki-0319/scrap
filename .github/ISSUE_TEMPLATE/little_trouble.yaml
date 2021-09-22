@@ -1,0 +1,29 @@
+name: Little Trouble
+description: Little Trouble
+title: "[Little Trouble] "
+labels: [report]
+body:
+  - type: textarea
+    attributes:
+      label: 問題
+      description: What trouble?
+      placeholder: Tell us what you see!
+      value: "?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 原因
+      description: Why caurse?
+      placeholder: Tell us what you see!
+      value: "?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 解決策
+      description: Solution
+      value: |
+        - 
+    validations:
+      required: false
