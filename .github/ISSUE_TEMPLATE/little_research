@@ -1,0 +1,28 @@
+name: Scrap Research
+description: Find out what you wondered a little
+title: "[Scrap Research] "
+labels: [reaserch]
+body:
+  - type: textarea
+    attributes:
+      label: Problem
+      description: What was the starting point?
+      placeholder: Tell us what you see!
+      value: "?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Want
+      description: What want to know
+      placeholder: Tell us what you see!
+      value: "?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Result
+      description: Result
+      value: "?"
+    validations:
+      required: false
