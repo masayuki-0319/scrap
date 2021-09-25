@@ -1,6 +1,6 @@
-name: Little Trouble
+name: Scrap Trouble
 description: Little Trouble
-title: "[Little Trouble] "
+title: "[Scrap Trouble] "
 labels: [report]
 body:
   - type: textarea
